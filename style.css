@@ -66,7 +66,9 @@
     filter: grayscale(100%);
 }
 
-.ex-7-img {
+.ex-7-img,
+.ex-8-img,
+.ex-9-img {
     transition: 3s;
 }
 
@@ -75,11 +77,22 @@
     
 }
 
+.ex-8-img:hover,
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: grayscale(50%) saturate(50%);
+}
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover {
+    transform: scale(1.5);
+}
+
+
 .ex-10-icon {
     font-size: 60px;
 }
